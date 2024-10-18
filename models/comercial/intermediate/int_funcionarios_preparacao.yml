@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: int_funcionarios_preparacao
+    description: Tabela intermediária para join do nome do gerente.
+
+    columns:
+      - name: PK_FUNCIONARIO
+        description: Chave primária do funcionário.
+
+      - name: DT_NASCIMENTO_FUNCIONARIO
+        description: Data de nascimento do funcionário.
+
+      - name: DT_CONTRATACAO
+        description: Data de contratação do funcionário.
+
+      - name: NOME_FUNCIONARIO
+        description: Nome completo do funcionário.
+
+      - name: CARGO_FUNCIONARIO
+        description: Cargo do funcionário.
+
+      - name: CIDADE_FUNCIONARIO
+        description: Cidade onde trabalha o funcionário.
+
+      - name: REGIAO_FUNCIONARIO
+        description: Região onde trabalha o funcionário.
+
+      - name: PAIS_FUNCIONARIO
+        description: País onde trabalha o funcionário.
+
+      - name: NOME_GERENTE
+        description: Nome do gerente do funcionário.
+
